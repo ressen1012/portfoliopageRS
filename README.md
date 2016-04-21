@@ -20,5 +20,10 @@ Some useful tips to help you get started:
 
 ## Part 2 - Effective Optimizations For 60 FPS
 1. Deleted determineDx and moved it into changePizzaSizes function
-2. Changed the slider value to a percent width
-3. 
+2. Changed the slider value percent width
+3. Passed DOM call downloads to randomPizzas variable
+4. Simplified for loop with local variable randomPizzas
+5. Moved pizzasDiv outside the for loop so the function only makes one DOM call
+6. Changed document.getElementsByClassName() Web API call @ .mover
+7. Created variable top to provent DOM being accessed in ever iteration
+8. Recalculated number of pizzas to rendered to screen based on height and width of the screen
